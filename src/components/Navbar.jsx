@@ -10,35 +10,35 @@ const Navbar = () => {
   const[nav,setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 bg-slate-900 transition'>
       <div>
         <img src={Logo} alt='Logo Image' style={{width:'50px'}} />
       </div>
 
       {/* menu */}
       <div>
-        <ul className='hidden md:flex'>
-          <li>
+        <ul className='hidden md:flex text-center text-xl p-20'>
+          <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
             <Link to='home' smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li>
+          <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
             <Link to='about' smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li>
+          <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
             <Link to='skills' smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li>
+          <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
             <Link to='work' smooth={true} duration={500}>
               Work
             </Link>
           </li>
-          <li>
+          <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
             <Link to='contact' smooth={true} duration={500}>
               Contact
             </Link>
