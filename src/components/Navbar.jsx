@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import resume from "../images/sam.pdf"
-import {  FaBars,  FaTimes,  FaGithub,  FaLinkedin,  FaFacebook,  FaLinkedinIn,} from 'react-icons/fa';
+import {  FaBars,  FaTimes,  FaGithub,  FaLinkedin,} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/SR.png';
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 bg-slate-900 transition'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{width:'50px'}} />
+        <img src={Logo} alt='Logo' style={{width:'50px'}} />
       </div>
 
       {/* menu */}
@@ -94,7 +94,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a className='flex justify-between items-center w-full text-gray-300'>
+            <a className='flex justify-between items-center w-full text-gray-300' href='https://www.gmail.com'>
               Email <HiOutlineMail size={30} />
             </a>
           </li>
