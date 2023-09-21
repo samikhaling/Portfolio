@@ -2,6 +2,7 @@ import Book from '../assets/projects/book.jpg'
 import restaurent from '../assets/projects/restaurent.jpg'
 import clothing from '../assets/projects/samclothing.jpg'
 import pizza from '../assets/projects/pizza.jpg'
+import jobpost from '../assets/projects/jobposting.jpg'
 
 export const data=[
     {
@@ -27,6 +28,13 @@ export const data=[
     },
     {
         id:4,
+        name:"Job Posting application",
+        image:jobpost,
+        github:"https://github.com/samikhaling/job-post",
+        live:"https://job-post-76qs4xqtj-samikhaling.vercel.app/jobs",
+    },
+    {
+        id:5,
         name:"Restaurent booking application",
         image:restaurent,
         github:"https://github.com/samikhaling/restaurent",
