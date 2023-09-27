@@ -17,8 +17,8 @@ const Home = () => {
           Full Stack Developer
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px] text-justify'>
-          I have more than 3.5 years of experience in software development using different technology like reactjs, redux, tailwind CSS.
-          Currently seeking a challenging position where I can apply my React knowledge and solid front-end development abilities to help 
+          I have more than 4 years of experience in software development using MERN technology.Currently seeking a challenging 
+          position where I can apply my React knowledge and solid front-end development abilities to help 
           new projects succeed.
         </p>
         <div>
