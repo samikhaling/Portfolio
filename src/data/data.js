@@ -2,8 +2,8 @@ import restaurent from '../assets/projects/restaurent.jpg'
 import clothing from '../assets/projects/samclothing.jpg'
 import pizza from '../assets/projects/pizza.jpg'
 import jobpost from '../assets/projects/jobposting.jpg'
-import quizz from '../assets/projects/quizz.jpg'
 import lms from '../assets/projects/lms-learning.png'
+import airbnb from '../assets/projects/airbnb.png'
 
 export const data=[
      {
@@ -15,10 +15,10 @@ export const data=[
     },
     {
         id:2,
-        name:"React quizz application",
-        image:quizz,
-        github:"https://github.com/samikhaling/react-quiz",
-        live:"https://samir-react-quizz.netlify.app/",
+        name:"Airbnb clone using NextJs 13",
+        image:airbnb,
+        github:"https://github.com/samikhaling/airbnb-booking-clone",
+        live:"https://room-book-app.vercel.app/",
     },
     {
         id:3,
