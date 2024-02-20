@@ -1,4 +1,4 @@
-import restaurent from '../assets/projects/restaurent.jpg'
+import miro from '../assets/projects/miroclone.png'
 import clothing from '../assets/projects/samclothing.jpg'
 import pizza from '../assets/projects/pizza.jpg'
 import jobpost from '../assets/projects/jobposting.jpg'
@@ -43,10 +43,10 @@ export const data=[
     },
     {
         id:6,
-        name:"Restaurent booking application",
-        image:restaurent,
-        github:"https://github.com/samikhaling/restaurent",
-        live:"",
+        name:"Miro Clone",
+        image:miro,
+        github:"https://github.com/samikhaling/next14-board-tutorial",
+        live:"https://next14-board-tutorial-sigma.vercel.app/",
     }, 
  
 
